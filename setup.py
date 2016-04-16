@@ -1,9 +1,9 @@
 from setuptools import setup
 
 setup(name='Odoo',
-      version='8.0',
+      version='9.0',
       description='Odoo on OpenShift',
-      author='Juan Ramón alfaro',
-      author_email='amon.raj@gmail.com',
-      url='https://github.com/amon-ra/openshift-odoo-quickstart',
+      author='Michael Liebman',
+      author_email='michael.liebman+dev@gmail.com',
+      url='https://github.com/msl521/openshift-odoo-quickstart',
 )
