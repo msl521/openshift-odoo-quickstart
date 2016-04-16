@@ -14,8 +14,8 @@ Then, merge and push this repo into your new app. Please be patient, this operat
 
 ```
 $ cd openerp/
-$ git remote add upstream https://github.com/amon-ra/openshift-odoo-quickstart.git
-$ git pull -s recursive -X theirs upstream 8.0
+$ git remote add upstream https://github.com/msl521/openshift-odoo-quickstart.git
+$ git pull -s recursive -X theirs upstream 9.0
 $ git push
 ```
 
@@ -38,7 +38,3 @@ Default credentials are:
 Username: admin
 Password: admin
 ```
-
-## Upgrade
-
-To use master version pull master on previus commands.
