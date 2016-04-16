@@ -12,6 +12,8 @@ cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/wkhtmltopdf ${OPENSHIFT_PYTHON_DIR}/virtenv
 #cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/lib/* ${OPENSHIFT_PYTHON_DIR}/virtenv/bin
 cd $OPENSHIFT_DATA_DIR
 
+easy_install -U setuptools
+
 #if [ -d "odoo-${ODOO_VERSION}" ]; then
 #	echo "Odoo already downloaded."
 #	exit 0
