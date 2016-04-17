@@ -12,6 +12,7 @@ cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/wkhtmltopdf ${OPENSHIFT_PYTHON_DIR}/virtenv
 #cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/lib/* ${OPENSHIFT_PYTHON_DIR}/virtenv/bin
 cd $OPENSHIFT_DATA_DIR
 
+source $OPENSHIFT_PYTHON_DIR/virtenv/bin/activate
 easy_install -U setuptools
 pip install -r $OPENSHIFT_REPO_DIR/requiements-s2.txt
 
