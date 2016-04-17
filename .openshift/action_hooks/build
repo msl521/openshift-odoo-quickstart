@@ -13,6 +13,7 @@ cp ${OPENSHIFT_REPO_DIR}/wkhtmltopdf/wkhtmltopdf ${OPENSHIFT_PYTHON_DIR}/virtenv
 cd $OPENSHIFT_DATA_DIR
 
 easy_install -U setuptools
+pip install -r $OPENSHIFT_REPO_DIR/requiements-s2.txt
 
 #if [ -d "odoo-${ODOO_VERSION}" ]; then
 #	echo "Odoo already downloaded."
