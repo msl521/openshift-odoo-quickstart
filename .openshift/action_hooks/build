@@ -34,7 +34,6 @@ if [ ! -f "$OPENSHIFT_DATA_DIR/$ODOO_ARCHIVE_FILENAME" ]; then
   #rm -f $OPENSHIFT_REPO_DIR/requirements.txt
   #ln -s $OPENSHIFT_DATA_DIR/odoo/requirements.txt $OPENSHIFT_REPO_DIR/requirements.txt
 
-  source $OPENSHIFT_PYTHON_DIR/virtenv/bin/activate
   #pip install -r $OPENSHIFT_REPO_DIR/requirements.txt
   npm install less less-plugin-clean-css
   
