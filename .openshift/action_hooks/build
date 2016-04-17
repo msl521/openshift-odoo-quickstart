@@ -28,8 +28,6 @@ if [ ! -f "$OPENSHIFT_DATA_DIR/$ODOO_ARCHIVE_FILENAME" ]; then
 
   rm -f $OPENSHIFT_DATA_DIR/odoo
   ln -s $OPENSHIFT_DATA_DIR/odoo-${ODOO_VERSION}-${ODOO_TIMESTAMP} $OPENSHIFT_DATA_DIR/odoo
-  
-  pip install -r ${OPENSHIFT_DATA_DIR}/requirements.txt
 
   #rm -f $OPENSHIFT_REPO_DIR/requirements.txt
   #ln -s $OPENSHIFT_DATA_DIR/odoo/requirements.txt $OPENSHIFT_REPO_DIR/requirements.txt
