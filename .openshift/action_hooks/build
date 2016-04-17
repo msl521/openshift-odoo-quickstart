@@ -14,7 +14,7 @@ cd $OPENSHIFT_DATA_DIR
 
 source $OPENSHIFT_PYTHON_DIR/virtenv/bin/activate
 easy_install -U setuptools
-pip install -r $OPENSHIFT_REPO_DIR/requiements-s2.txt
+pip install -r $OPENSHIFT_REPO_DIR/requirements-s2.txt
 
 #if [ -d "odoo-${ODOO_VERSION}" ]; then
 #	echo "Odoo already downloaded."
